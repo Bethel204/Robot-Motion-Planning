@@ -1,0 +1,22 @@
+
+<sdf version="1.6">
+  <model name="goal_marker">
+     <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.2</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0 1 0 1</ambient> <!-- Green color -->
+          <diffuse>0 1 0 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,22 @@
+<sdf version="1.6">
+  <model name="start_marker">
+    <static>true</static> <!-- Temporarily set to static to disable physics -->
+    <pose>0 0 1 0 0 0</pose> <!-- Increase Z position to avoid ground collision -->
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.2</radius> <!-- Reduced size -->
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1 0 0 1</ambient> <!-- Red color -->
+          <diffuse>1 0 0 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
